@@ -1,0 +1,19 @@
+{
+  "name": "l-vite-cli",
+  "version": "0.0.3",
+  "module": "cli.js",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "l-vite-cli": "^0.0.3"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "bin": {
+    "l-vite": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "type": "module"
+}
